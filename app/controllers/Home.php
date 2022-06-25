@@ -45,7 +45,7 @@ use App\Functions;
                         
                         $n = sizeof($MyArray); 
                         
-                        print_r($functions->quickSort($MyArray));
+                        // print_r($functions->quickSort($MyArray));
                         $sorted_string = implode('', $functions->quickSort($MyArray));
                         $data = [
                             'original' => $_POST['text'],
